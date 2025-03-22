@@ -1,0 +1,129 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "launch-the-brand1---just-example;add-funds-to-the-dynamic-accounts",
+        "keyword": "Scenario Outline",
+        "line": 12,
+        "name": "add funds to the dynamic accounts",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 319087916
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "user is on homepage",
+            "match": {
+              "location": "brands/brand1/squad1/ui/step-definitions/login.steps.ts:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2243730124
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "add deposit to the account new",
+            "match": {
+              "location": "brands/brand1/squad1/ui/step-definitions/login.steps.ts:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1601875
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 525916
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke",
+            "line": 5
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "launch-the-brand1---just-example;add-funds-to-the-dynamic-accounts",
+        "keyword": "Scenario Outline",
+        "line": 13,
+        "name": "add funds to the dynamic accounts",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 150407833
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "user is on homepage",
+            "match": {
+              "location": "brands/brand1/squad1/ui/step-definitions/login.steps.ts:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1975041833
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "add deposit to the account existing",
+            "match": {
+              "location": "brands/brand1/squad1/ui/step-definitions/login.steps.ts:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 466041
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 195958
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke",
+            "line": 5
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "launch-the-brand1---just-example",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Launch the brand1 - just example",
+    "tags": [],
+    "uri": "brands/brand1/squad1/ui/features/login.feature"
+  }
+]
